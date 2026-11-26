@@ -1,7 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from TB321FU (ZUI_17.0.10.032_ST). 
+## are from Lenovo Legion Y700 3rd gen, kirby (TB321FU_ROW_OPEN_USER_Q00002.0_W_ZUI_17.5.10.319_ST_260811).
 
 # ACDB
+vendor/etc/acdbdata/pineapple_qrd/QRD_acdb_cal.acdb
+vendor/etc/acdbdata/pineapple_qrd/QRD_workspaceFileXml.qwsp
 vendor/etc/acdbdata/pineapple_qrd_sku2/QRD_pineapple_sku2_acdb_cal.acdb
 vendor/etc/acdbdata/pineapple_qrd_sku2/QRD_pineapple_sku2_workspaceFileXml.qwsp
 
@@ -168,7 +170,9 @@ vendor/lib64/rfs/dsp/libvpt_action_recognition.so
 vendor/lib64/rfs/dsp/libworker_pool.so
 
 # Audio
+vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_qrd.xml
 vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_qrd_sku2.xml
+vendor/etc/audio/sku_pineapple/resourcemanager_pineapple_qrd.xml
 vendor/etc/audio/sku_pineapple/resourcemanager_pineapple_qrd_sku2.xml
 
 # Audio Firmware
@@ -780,6 +784,7 @@ vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libarcsoft_video_superportrait.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
+vendor/lib64/libqsegnet.so
 vendor/lib64/libBSTDSLR.so
 vendor/lib64/libBSTFilter.so
 vendor/lib64/libBSTSingleAIBokeh.so
@@ -889,6 +894,7 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/etc/displayconfig/display_id_4630947039571902851.xml
 
 # Haptics
+vendor/firmware/haptic_ram.bin
 vendor/firmware/100_Haptic_Right_RTP.bin
 vendor/firmware/101_Haptic_Right_RTP.bin
 vendor/firmware/102_Haptic_Right_RTP.bin
