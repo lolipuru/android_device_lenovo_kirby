@@ -19,6 +19,17 @@ TARGET_SCREEN_DENSITY := 400
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
 
+# Kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD += \
+	aw882xx_dlkm.ko \
+	nvt_36xxx.ko
+
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
+	nvt_36xxx.ko
+
+BOOT_KERNEL_MODULES += \
+	nvt_36xxx.ko
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
 
