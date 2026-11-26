@@ -13,3 +13,8 @@ $(call inherit-product, vendor/lenovo/kirby/kirby-vendor.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworkResKirby \
+    WifiResTargetKirby
